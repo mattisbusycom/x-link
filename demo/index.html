@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>X-Link</title>
+  <link is="x-link" data-href="./styles/main.css">
+  <link is="x-link" data-href="./styles/typo.css">
+</head>
+<body style="opacity: 0">
+  <h1>X-Link</h1>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et molestiae impedit animi hic nemo natus unde expedita incidunt architecto doloribus nulla dolore odit nam perspiciatis, tempore rerum corrupti aspernatur minima.</p>
+  <script src="../bower_components/x-tag-core/dist/x-tag-core.min.js"></script>
+  <script src="../dist/x-link.min.js"></script>
+  <script>
+    (function (xLinks) {
+      var i = xLinks.length - 1;
+      Array.prototype.forEach.call(xLinks, function (xLink, j) {
+        xLink.addEventListener('ready', function () {
+          if ( i === j ) {
+            document.body.classList.add('is-ready');
+          }
+        }, false);
+      });
+    })(document.querySelectorAll('[is="x-link"]'));
+  </script>
+</body>
+</html>

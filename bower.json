@@ -1,0 +1,28 @@
+{
+  "name": "x-link",
+  "version": "0.1.0",
+  "authors": [
+    "Emanuel Kluge"
+  ],
+  "description": "Web Component for caching CSS in the local storage.",
+  "main": "dist/x-link.min.js",
+  "keywords": [
+    "custom",
+    "element",
+    "x-tag",
+    "x-link",
+    "web-components"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/herschel666/x-link",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "x-tag-core": "~0.9.7"
+  }
+}

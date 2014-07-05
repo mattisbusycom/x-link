@@ -1,0 +1,19 @@
+{
+  "name": "X-Link",
+  "tagName": "x-link",
+  "version": "0.1.0",
+  "author": "Emanuel Kluge",
+  "description": "Web Component for caching CSS in the local storage.",
+  "images": [],
+  "categories": [],
+  "demo": "demo",
+  "xtag": "0.9.7",
+  "documentation": {
+    "attributes": {
+      "data-href": "Path to the CSS file."
+    },
+    "events": {
+      "ready": "CSS is inserted to the DOM."
+    }
+  }
+}
