@@ -7,23 +7,27 @@ X-Link
 
 Clone the repository and install the dependencies:
 
-	$ git clone git@github.com:herschel666/x-link.git
-	$ mkdir x-link
-	$ bower install
+```bash
+$ git clone git@github.com:herschel666/x-link.git
+$ mkdir x-link
+$ bower install
+```
 
 ## Usage
 
 Include the X-Tag-Core-library and the X-Link-script into your HTML. That's it!
 
-	…
-	<head>
-	  <script src="path/to/x-tag-core.js"></script>
-	  <script src="path/to/x-link.js"></script>
-	  …
-	  <link is="x-link" data-href="path/to/foo.css">
-	  <link is="x-link" data-href="path/to/bar">
-	</head>
-	…
+```html
+…
+<head>
+  <script src="path/to/x-tag-core.js"></script>
+  <script src="path/to/x-link.js"></script>
+  …
+  <link is="x-link" data-href="path/to/foo.css">
+  <link is="x-link" data-href="path/to/bar">
+</head>
+…
+```
 
 ## How it works
 
